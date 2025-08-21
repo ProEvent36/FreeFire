@@ -8,7 +8,7 @@
         body {
             margin: 0;
             padding: 0;
-            background: url("bg.jpg") no-repeat center center fixed;
+            background: url("back.jpg") no-repeat center center fixed;
             background-size: cover;
             background-position: center top;   
             font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
 
         .container {
             width: 320px;
-            background-color: rgba(0, 0, 0, 0.7); /* transparent black box */
+            background-color: rgba(0, 0, 0, 0.7);
             padding: 30px;
             border-radius: 12px;
             text-align: center;
@@ -63,13 +63,13 @@
             font-size: 14px;
         }
 
-        /* 🔥 Media Queries for Mobile */
+       
         @media (max-width: 480px) {
             body {
                 padding: 10px;
             }
             .container {
-                width: 100%; /* full width on mobile */
+                width: 100%;
                 padding: 20px;
             }
             .container h2 {
@@ -91,7 +91,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Login Page</h2>
+        <h2>Register</h2>
         <form method="POST">
             <input type="email" placeholder="Enter Email" required name="mail">
             <input type="password" placeholder="Enter Password" required name="pass">
@@ -122,5 +122,6 @@
         }
     }
     ?>
+    
 </body>
 </html>
